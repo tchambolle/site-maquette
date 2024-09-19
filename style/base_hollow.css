@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    display: block;
+    color:red;
+    border: 8px solid red;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.hollow_pictures {
+
+    border: 8px outset black;
+    width: 180px;
+    margin: auto;
+    display: block;
+
+}
+
+h2 {
+    color: blue;
+    width: 75%;
+    text-align: center;
+    padding-left: 12.5%;
+}
+
+p {
+    text-align: center;
+}
+
+.dscpt {
+    margin: auto;
+    margin-top: 20;
+}
+
+@media (max-width:600px) {
+
+    h1 {
+        width: 75%;
+    }
+
+    .hollow_pictures {
+            width: 80%;
+        }
+
+    p {
+        width: 75%;
+    }
+}
